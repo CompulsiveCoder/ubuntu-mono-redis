@@ -1,8 +1,8 @@
 # ubuntu-mono-redis
 A docker container for running mono and redis on ubuntu.
 
-# Build
+# To build this container execute:
 sh build.sh
 
-# Run
+# To run this container execute:
 sh run.sh
