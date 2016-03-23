@@ -9,6 +9,8 @@ VOLUME ["/data"]
 WORKDIR /data
 
 # Define default command.
-CMD ["redis-server", "/etc/redis/redis.conf"]
+#CMD ["redis-server", "/etc/redis/redis.conf"]
 
 EXPOSE 6379
+
+ENTRYPOINT  ["/usr/bin/redis-server"]
